@@ -1,5 +1,9 @@
 # Use variables to customize the deployment
 
+variable "tenant_id" {}
+variable "client_id" {}
+variable "client_secret" {}
+  
 variable "root_id" {
   type    = string
   default = "CSC-JSC"
